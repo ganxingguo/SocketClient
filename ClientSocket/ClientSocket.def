@@ -1,0 +1,6 @@
+; ClientSocket.def : Declares the module parameters for the DLL.
+
+LIBRARY      "ClientSocket"
+
+EXPORTS
+    ; Explicit exports can go here

@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="8.00"
-	Name="AfcSocket"
+	Name="ClientSocket"
 	ProjectGUID="{B0DCE420-58A7-4D4C-9C7D-F956B9DEDA58}"
-	RootNamespace="AfcSocket"
+	RootNamespace="ClientSocket"
 	Keyword="MFCDLLProj"
 	>
 	<Platforms>
@@ -67,12 +67,12 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				OutputFile="..\..\..\run\Client\release\AfcSocket.dll"
+				OutputFile="..\..\..\run\Client\release\ClientSocket.dll"
 				LinkIncremental="2"
-				ModuleDefinitionFile=".\AfcSocket.def"
+				ModuleDefinitionFile=".\ClientSocket.def"
 				GenerateDebugInformation="true"
 				SubSystem="2"
-				ImportLibrary="..\..\..\sdk\lib\Client\AfcSocket.lib"
+				ImportLibrary="..\..\..\sdk\lib\Client\ClientSocket.lib"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -150,14 +150,14 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				OutputFile="..\..\..\run\Client\release\AfcSocket.dll"
+				OutputFile="..\..\..\run\Client\release\ClientSocket.dll"
 				LinkIncremental="1"
-				ModuleDefinitionFile=".\AfcSocket.def"
+				ModuleDefinitionFile=".\ClientSocket.def"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"
-				ImportLibrary="..\..\..\sdk\lib\Client\AfcSocket.lib"
+				ImportLibrary="..\..\..\sdk\lib\Client\ClientSocket.lib"
 				TargetMachine="1"
 			/>
 			<Tool

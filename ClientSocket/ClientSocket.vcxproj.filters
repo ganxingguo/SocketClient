@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="AfcSocket.cpp">
+    <ClCompile Include="TCPClientSocket.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="TCPClientSocket.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AfcSocket.h">
-      <Filter>Include</Filter>
-    </ClInclude>
-    <ClInclude Include="stdafx.h">
-      <Filter>Include</Filter>
-    </ClInclude>
     <ClInclude Include="TCPClientSocket.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDefine.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="RC4Engine.h">
       <Filter>Include</Filter>
     </ClInclude>
   </ItemGroup>
