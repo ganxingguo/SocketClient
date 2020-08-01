@@ -36,7 +36,7 @@ public:
 };
 
 //¿Í»§¶Ë SOKET
-class CTCPClientSocket
+class __declspec(dllexport) CTCPClientSocket
 {
 public:
 	CTCPClientSocket(IClientSocketService * pIService, DECODE_FUN* cbDecode = nullptr);
